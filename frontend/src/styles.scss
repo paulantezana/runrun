@@ -1,0 +1,52 @@
+@use "node_modules/sedna/src/sedna" as sedna;
+
+// Config Sedna
+@include sedna.core();
+// @import "./base/postConfig.scss";
+
+// Base
+// @import "./base/base.scss";
+
+// Components
+@include sedna.SnBtn();
+// @include sedna.SnAlert();
+// @include sedna.SnCard();
+@include sedna.SnForm();
+@include sedna.SnControl();
+@include sedna.SnControlGroup();
+@include sedna.SnAvatar();
+// @include sedna.SnGrid();
+// @include sedna.SnLoading();
+// @include sedna.SnMargin();
+// @include sedna.SnModal();
+// @include sedna.SnMessage();
+// @include sedna.SnPagination();
+// @include sedna.SnTable();
+// @include sedna.SnFilter();
+// @include sedna.SnSwitch();
+// // @include sedna.SnDropdown();
+// @include sedna.SnTab();
+// @include sedna.SnTag();
+// // @include sedna.SnContainer();
+// @include sedna.SnCollapse();
+// @include sedna.SnDivider();
+// @include sedna.SnFreeze();
+// @include sedna.SnEmpty();
+// @include sedna.SnPadding();
+
+@include sedna.SnList();
+// @include sedna.SnHidden();
+// @include sedna.SnVideo();
+
+
+@import "scss/chat.scss";
+@import "scss/markdown.scss";
+
+
+.markdown-body{
+    pre > div {
+        background: transparent !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+}

@@ -1,0 +1,6 @@
+from app.repository.post_repository import PostRepository
+from app.repository.tag_repository import TagRepository
+from app.repository.user_repository import UserRepository
+from app.repository.message_repository import MessageRepository
+from app.repository.thread_repository import ThreadRepository
+from app.repository.resource_repository import ResourceRepository
